@@ -1,0 +1,29 @@
+#include <iostream>
+ 
+ using namespace std;
+ 
+ int main ()
+
+ {  cout<<"==PROGRAM C++ KONVERSI SATUAN DERAJAT SUHU== \n";
+    cout<<"-------------------------------------------- \n";
+   
+    
+    float suhu, suhu_fahr, suhu_ream, suhu_kelv;
+ 	
+    cout<<"\n Masukkan suhu (dalam Celsius): ";
+    cin>> suhu;
+    
+    
+    cout<< suhu <<" derajat Celsius sama dengan: \n";
+    cin>>suhu;
+    
+    suhu_fahr = (suhu*9/5)+32;
+    suhu_ream = suhu*(4/5);
+    suhu_kelv = suhu + 273;
+    
+    cout<<suhu_fahr<<" derajat Fahrenheit \n";
+    cout<< suhu_ream <<" derajat Reamur \n";
+    cout<< suhu_kelv <<" derajat Kelvin \n";
+    
+ 	return 0;
+ }
